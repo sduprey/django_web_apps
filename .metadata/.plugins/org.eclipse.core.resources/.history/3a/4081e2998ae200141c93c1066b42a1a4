@@ -1,0 +1,25 @@
+'''
+Created on 14 Apr 2015
+
+@author: sduprey
+'''
+import psycopg2
+class Datacollector(object):
+    my_conn=None
+    @staticmethod
+    def get_pictures(my_sku):
+        if Datacollector.my_conn is None:
+             conn_string = "host='localhost' dbname='KRITERDB' user='postgres' password='mogette'"
+             # print the connection string we will use to connect
+             print "Connecting to database\n    ->%s" % (conn_string)
+             Datacollector.my_conn=psycopg2.connect(conn_string) 
+
+        my_brand_request = "select distinct cds_nb_distinct_brand, count(*) from CATALOG where cds_nb_distinct_brand is not null group by cds_nb_distinct_brand order by cds_nb_distinct_brand  asc"
+        my_pictures=[]
+        return my_pictures
+    
+    
+    
+    
+    
+    

@@ -1,0 +1,18 @@
+from django.db import models
+
+class Sku(models.Model):
+        sku_id = models.CharField(max_length=200)
+       sku_one_picture_url = models.TextField
+       sku_one_picture_url = models.TextField
+       sku_two_picture_url = models.TextField
+       sku_two_picture_url = models.TextField
+       sku_one_picture_url = models.TextField
+       sku_one_picture_url = models.TextField
+       sku_three_picture_url = models.TextField
+       sku_three_picture_url = models.TextField
+       sku_four_picture_url = models.TextField
+       sku_four_picture_url = models.TextField
+       sku_five_picture_url = models.TextField
+       sku_five_picture_url = models.TextField
+       sku_six_picture_url = models.TextField
+       sku_six_picture_url = models.TextFieldss

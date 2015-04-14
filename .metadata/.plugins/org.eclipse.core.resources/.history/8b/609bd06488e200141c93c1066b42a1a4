@@ -1,0 +1,18 @@
+'''
+Created on 14 Apr 2015
+
+@author: sduprey
+'''
+class datacollector(object):
+    @staticmethod
+    def get_pictures():
+        if get_pictures.my_conn is None:
+             conn_string = "host='localhost' dbname='KRITERDB' user='postgres' password='mogette'"
+             # print the connection string we will use to connect
+             print "Connecting to database\n    ->%s" % (conn_string)
+ 
+    # get a connection, if a connect cannot be made an exception will be raised here
+    conn = psycopg2.connect(conn_string) 
+        
+        my_pictures=[]
+        return my_pictures

@@ -1,0 +1,5 @@
+<h1> Enter the SKU for which you want to compare results : </h1>
+{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+
+ <a href="/comparator/TOS3700722498563/details">Enter your destination TOS3700722498563</a>
+

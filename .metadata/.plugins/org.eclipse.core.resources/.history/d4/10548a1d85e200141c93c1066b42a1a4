@@ -1,0 +1,12 @@
+from django.http import HttpResponse
+from django.shortcuts import render
+
+# Create your views here
+def details(request):
+    sku_id=request.POST['sku_id']
+    return HttpResponse("You are wanting to compare the algos for SKU :"+sku_id)
+
+
+def index(request):
+    context = {}
+    return render(request, 'comparator/index.html', context)

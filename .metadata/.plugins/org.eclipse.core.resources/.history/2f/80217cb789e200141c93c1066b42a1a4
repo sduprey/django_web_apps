@@ -1,0 +1,13 @@
+'''
+Created on 14 Apr 2015
+
+@author: sduprey
+'''
+from comparator import  datacollector
+def main():
+    # parse command line options
+    my_sku = "TOS3700722498563"
+    datacollector.get_pictures(my_sku)
+
+if __name__ == "__main__":
+     main()

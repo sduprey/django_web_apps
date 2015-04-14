@@ -1,0 +1,10 @@
+'''
+Created on 14 Apr 2015
+
+@author: root
+'''
+class datacollector(object):
+    @staticmethod
+    def get_pictures():
+        my_pictures=[]
+        return my_pictures

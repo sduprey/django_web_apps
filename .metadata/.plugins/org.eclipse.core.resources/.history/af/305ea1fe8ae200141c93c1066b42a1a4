@@ -1,0 +1,31 @@
+'''
+Created on 14 Apr 2015
+
+@author: sduprey
+'''
+import psycopg2
+class Datacollector(object):
+    my_conn=None
+    @staticmethod
+    def get_pictures(my_sku):
+        if Datacollector.my_conn is None:
+             conn_string = "host='localhost' dbname='KRITERDB' user='postgres' password='mogette'"
+             # print the connection string we will use to connect
+             print "Connecting to database\n    ->%s" % (conn_string)
+             Datacollector.my_conn=psycopg2.connect(conn_string) 
+        cursor = Datacollector.my_conn.cursor()
+        my_cds_request = "select sku1, sku2, sku3, sku4, sku5, sku6 from CATALOG where sku=(%s)"
+        print "Dealing with :"+my_sku
+        # fetching data to display for magasin Musique
+        cursor.execute(my_cds_request,(my_sku,)); 
+        datas = cursor.fetchall()
+        cds_similar_skus = [item[0] for item in datas];
+        for magasin_to_loop in datas:
+            my_pictures=[]
+            return my_pictures
+    
+    
+    
+    
+    
+    

@@ -1,0 +1,18 @@
+from django.http import HttpResponse, HttpResponseRedirect
+from django.core.urlresolvers import reverse
+from django.shortcuts import render
+from comparator.datacollector import Datacollector
+
+# Create your views here
+def details(request):
+    sku_id=request.POST['sku_id']
+    return HttpResponseRedirect(reverse('comparator:results', args=(sku_id,)))
+
+def results(request,sku_id):  
+    my_cds_pictures,my_kriter_pictures = Datacollector.get_pictures(sku_id)
+    context = {'sku_id': sku_id, 'my_cds_pictures':my_cds_pictures, 'my_kriter_pictures':my_kriter_pictures}
+    return render(request, 'comparator/results.html', context)
+
+def index(request):
+    context = {}
+    return render(request, 'comparator/index.html', context)

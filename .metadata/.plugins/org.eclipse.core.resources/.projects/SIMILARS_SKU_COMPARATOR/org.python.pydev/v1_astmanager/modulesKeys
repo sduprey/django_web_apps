@@ -1,0 +1,17 @@
+MODULES_MANAGER_V2
+SIMILARS_SKU_COMPARATOR.__init__|/home/sduprey/My_Code/My_Django_Apps/SIMILARS_SKU_COMPARATOR/SIMILARS_SKU_COMPARATOR/__init__.py
+SIMILARS_SKU_COMPARATOR.settings|/home/sduprey/My_Code/My_Django_Apps/SIMILARS_SKU_COMPARATOR/SIMILARS_SKU_COMPARATOR/settings.py
+SIMILARS_SKU_COMPARATOR.urls|/home/sduprey/My_Code/My_Django_Apps/SIMILARS_SKU_COMPARATOR/SIMILARS_SKU_COMPARATOR/urls.py
+SIMILARS_SKU_COMPARATOR.wsgi|/home/sduprey/My_Code/My_Django_Apps/SIMILARS_SKU_COMPARATOR/SIMILARS_SKU_COMPARATOR/wsgi.py
+comparator.__init__|/home/sduprey/My_Code/My_Django_Apps/SIMILARS_SKU_COMPARATOR/comparator/__init__.py
+comparator.admin|/home/sduprey/My_Code/My_Django_Apps/SIMILARS_SKU_COMPARATOR/comparator/admin.py
+comparator.datacollectingtest|/home/sduprey/My_Code/My_Django_Apps/SIMILARS_SKU_COMPARATOR/comparator/datacollectingtest.py
+comparator.datacollector|/home/sduprey/My_Code/My_Django_Apps/SIMILARS_SKU_COMPARATOR/comparator/datacollector.py
+comparator.migrations.0001_initial|/home/sduprey/My_Code/My_Django_Apps/SIMILARS_SKU_COMPARATOR/comparator/migrations/0001_initial.py
+comparator.migrations.0002_auto_20150413_1527|/home/sduprey/My_Code/My_Django_Apps/SIMILARS_SKU_COMPARATOR/comparator/migrations/0002_auto_20150413_1527.py
+comparator.migrations.__init__|/home/sduprey/My_Code/My_Django_Apps/SIMILARS_SKU_COMPARATOR/comparator/migrations/__init__.py
+comparator.models|/home/sduprey/My_Code/My_Django_Apps/SIMILARS_SKU_COMPARATOR/comparator/models.py
+comparator.tests|/home/sduprey/My_Code/My_Django_Apps/SIMILARS_SKU_COMPARATOR/comparator/tests.py
+comparator.urls|/home/sduprey/My_Code/My_Django_Apps/SIMILARS_SKU_COMPARATOR/comparator/urls.py
+comparator.views|/home/sduprey/My_Code/My_Django_Apps/SIMILARS_SKU_COMPARATOR/comparator/views.py
+manage|/home/sduprey/My_Code/My_Django_Apps/SIMILARS_SKU_COMPARATOR/manage.py

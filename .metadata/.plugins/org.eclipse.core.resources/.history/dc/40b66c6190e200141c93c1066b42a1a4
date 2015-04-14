@@ -1,0 +1,17 @@
+context = {'sku_id': sku_id, 'my_cds_pictures':my_cds_pictures, 'my_kriter_pictures':my_kriter_pictures}
+  
+{% if my_cds_pictures %}
+    <ul>
+    {% for picture in my_cds_pictures %}
+        <li><img src={{picture}} alt="pouet" height="100" width="100"></li>
+    {% endfor %}
+    </ul>
+{% endif %}
+
+{% if my_kriter_pictures %}
+    <ul>
+    {% for picture in my_kriter_pictures %}
+        <li><img src={{picture}} alt="pouet" height="100" width="100"></li>
+    {% endfor %}
+    </ul>
+{% endif %}

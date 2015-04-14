@@ -1,0 +1,10 @@
+<h1> Enter the SKU for which you want to compare results : </h1>
+{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+<form action="{% url 'comparator:details' %}" method="post">
+{% csrf_token %}
+SKU identification : <br>
+<input type="text" name="sku_id">
+<br>
+</form>
+<input type="submit" value="Compare" />
+</form>

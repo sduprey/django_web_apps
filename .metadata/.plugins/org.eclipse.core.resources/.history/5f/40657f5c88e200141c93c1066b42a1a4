@@ -1,0 +1,13 @@
+'''
+Created on 14 Apr 2015
+
+@author: sduprey
+'''
+class datacollector(object):
+    @staticmethod
+    def get_pictures():
+        if get_pictures.my_conn is None:
+             
+        
+        my_pictures=[]
+        return my_pictures

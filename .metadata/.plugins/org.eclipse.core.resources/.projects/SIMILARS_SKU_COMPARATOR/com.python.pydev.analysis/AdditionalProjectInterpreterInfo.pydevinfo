@@ -1,0 +1,70 @@
+-- VERSION_4
+-- START DISKCACHE
+/home/sduprey/My_Code/My_Django_Apps/.metadata/.plugins/org.eclipse.core.resources/.projects/SIMILARS_SKU_COMPARATOR/com.python.pydev.analysis/v2_indexcache
+comparator.migrations.0001_initial|1428936866000|/home/sduprey/My_Code/My_Django_Apps/SIMILARS_SKU_COMPARATOR/comparator/migrations/0001_initial.py
+comparator.models|1428939353000|/home/sduprey/My_Code/My_Django_Apps/SIMILARS_SKU_COMPARATOR/comparator/models.py
+comparator.admin|1428936295000|/home/sduprey/My_Code/My_Django_Apps/SIMILARS_SKU_COMPARATOR/comparator/admin.py
+comparator.migrations.__init__|1428936295000|/home/sduprey/My_Code/My_Django_Apps/SIMILARS_SKU_COMPARATOR/comparator/migrations/__init__.py
+manage|1428932252000|/home/sduprey/My_Code/My_Django_Apps/SIMILARS_SKU_COMPARATOR/manage.py
+comparator.datacollectingtest|1429005695000|/home/sduprey/My_Code/My_Django_Apps/SIMILARS_SKU_COMPARATOR/comparator/datacollectingtest.py
+SIMILARS_SKU_COMPARATOR.wsgi|1428932252000|/home/sduprey/My_Code/My_Django_Apps/SIMILARS_SKU_COMPARATOR/SIMILARS_SKU_COMPARATOR/wsgi.py
+comparator.tests|1428936295000|/home/sduprey/My_Code/My_Django_Apps/SIMILARS_SKU_COMPARATOR/comparator/tests.py
+SIMILARS_SKU_COMPARATOR.urls|1428995748000|/home/sduprey/My_Code/My_Django_Apps/SIMILARS_SKU_COMPARATOR/SIMILARS_SKU_COMPARATOR/urls.py
+SIMILARS_SKU_COMPARATOR.settings|1428939525000|/home/sduprey/My_Code/My_Django_Apps/SIMILARS_SKU_COMPARATOR/SIMILARS_SKU_COMPARATOR/settings.py
+comparator.__init__|1428936295000|/home/sduprey/My_Code/My_Django_Apps/SIMILARS_SKU_COMPARATOR/comparator/__init__.py
+SIMILARS_SKU_COMPARATOR.__init__|1428932252000|/home/sduprey/My_Code/My_Django_Apps/SIMILARS_SKU_COMPARATOR/SIMILARS_SKU_COMPARATOR/__init__.py
+comparator.datacollector|1429005700000|/home/sduprey/My_Code/My_Django_Apps/SIMILARS_SKU_COMPARATOR/comparator/datacollector.py
+comparator.urls|1429002766000|/home/sduprey/My_Code/My_Django_Apps/SIMILARS_SKU_COMPARATOR/comparator/urls.py
+comparator.migrations.0002_auto_20150413_1527|1428938836000|/home/sduprey/My_Code/My_Django_Apps/SIMILARS_SKU_COMPARATOR/comparator/migrations/0002_auto_20150413_1527.py
+-- END DISKCACHE
+-- START DICTIONARY
+12
+2=SIMILARS_SKU_COMPARATOR.wsgi
+12=Datacollector
+8=SIMILARS_SKU_COMPARATOR.urls
+5=comparator.migrations.0001_initial
+1=SIMILARS_SKU_COMPARATOR.settings
+7=comparator.models
+4=comparator.datacollectingtest
+11=Migration
+10=Sku
+3=comparator.datacollector
+9=comparator.urls
+6=comparator.migrations.0002_auto_20150413_1527
+-- END DICTIONARY
+-- START TREE 1
+22
+all|1|ALLOWED_HOSTS!11@
+app|1|application!19@
+bas|1|BASE_DIR!11@
+dat|2|Datacollector!25@DATABASES!11@
+deb|1|DEBUG!11@
+det|0|
+ind|0|
+ins|1|INSTALLED_APPS!11@
+lan|1|LANGUAGE_CODE!11@
+mai|1|main!34@
+mid|1|MIDDLEWARE_CLASSES!11@
+mig|2|Migration!41@Migration!49@
+res|0|
+roo|1|ROOT_URLCONF!11@
+sec|1|SECRET_KEY!11@
+sku|1|Sku!57@
+sta|1|STATIC_URL!11@
+tem|1|TEMPLATES!11@
+tim|1|TIME_ZONE!11@
+url|2|urlpatterns!67@urlpatterns!75@
+use|3|USE_I18N!11@USE_TZ!11@USE_L10N!11@
+wsg|1|WSGI_APPLICATION!11@
+-- END TREE
+-- START TREE 2
+8
+!<m|0|
+__s|1|__str__!10&58@
+con|0|
+dep|2|dependencies!11&43@dependencies!11&51@
+get|1|get_pictures!12&26@
+my_|1|my_conn!12&27@
+ope|2|operations!11&51@operations!11&43@
+sku|7|sku_six_picture_url!10&59@sku_five_picture_url!10&59@sku_three_picture_url!10&59@sku_one_picture_url!10&59@sku_four_picture_url!10&59@sku_id!10&59@sku_two_picture_url!10&59@
+-- END TREE

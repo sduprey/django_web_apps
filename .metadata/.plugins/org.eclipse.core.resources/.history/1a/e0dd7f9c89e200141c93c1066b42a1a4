@@ -1,0 +1,12 @@
+'''
+Created on 14 Apr 2015
+
+@author: root
+'''
+
+def main():
+    # parse command line options
+     datacollector.fetch()
+
+if __name__ == "__main__":
+     main()
