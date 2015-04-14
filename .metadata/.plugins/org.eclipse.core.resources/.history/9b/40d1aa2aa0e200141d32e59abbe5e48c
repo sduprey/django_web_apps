@@ -1,0 +1,16 @@
+<h1>Cdiscount similar products<h1>
+  {% if my_cds_pictures %}
+    <ul>
+    {% for picture in my_cds_pictures %}
+        <li><img src={{picture}} alt="pouet"></li>
+    {% endfor %}
+    </ul>
+{% endif %}
+<h1>Kriter similar products<h1>
+{% if my_kriter_pictures %}
+    <ul>
+    {% for picture in my_kriter_pictures %}
+        <li><img src={{picture}} alt="pouet"></li>
+    {% endfor %}
+    </ul>
+{% endif %}

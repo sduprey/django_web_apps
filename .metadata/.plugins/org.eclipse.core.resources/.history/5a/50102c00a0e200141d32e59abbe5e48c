@@ -10,7 +10,7 @@ def details(request):
 
 def results(request,sku_id):  
     my_sku_picture, my_cds_pictures, my_kriter_pictures = Datacollector.get_pictures(sku_id)
-    context = {'sku_id': sku_id,'my_sku_picture':my_sku_picture,'my_cds_pictures':my_cds_pictures,'my_kriter_pictures':my_kriter_pictures}
+    context = {'sku_id': sku_id, 'my_cds_pictures':my_cds_pictures, 'my_kriter_pictures':my_kriter_pictures}
     return render(request, 'comparator/results.html', context)
 
 def index(request):

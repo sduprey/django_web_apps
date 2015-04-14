@@ -1,6 +1,7 @@
 <h1> Enter the SKU for which you want to compare results : </h1>
 {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
 
+ 
 <form action="{% url 'comparator:details'%}" method="post">
 {% csrf_token %}
 SKU identification : <br>
@@ -10,24 +11,19 @@ SKU identification : <br>
 </form>
 <h1>Current SKU<h1>
 <img src={{my_sku_picture}} alt="pouet">
-
-<table>
-<tr>
-<td>Cdiscount similar products</td>
-{% if my_cds_pictures %}    
-    {% for picture in my_cds_pictures %}
-        <td><img src={{picture}} alt="pouet"></td>
-    {% endfor %}
-{% endif %}
-</tr>
-<tr>
-<td>Kriter similar products</td>
-{% if my_kriter_pictures %}
+<h1>Cdiscount similar products<h1>
+  {% if my_cds_pictures %}
     <ul>
-    {% for picture in my_kriter_pictures %}
-        <td><img src={{picture}} alt="pouet"></td>
+    {% for picture in my_cds_pictures %}
+        <li><img src={{picture}} alt="pouet"></li>
     {% endfor %}
     </ul>
 {% endif %}
-</tr>
-</table>
+<h1>Kriter similar products<h1>
+{% if my_kriter_pictures %}
+    <ul>
+    {% for picture in my_kriter_pictures %}
+        <li><img src={{picture}} alt="pouet"></li>
+    {% endfor %}
+    </ul>
+{% endif %}
